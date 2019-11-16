@@ -1,0 +1,41 @@
+/* THIS FILE CONTAINS STYLING THAT IS UNIQUE TO about.html:
+please use it for stuff like images, paragrphs etc that is unique to this page */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+}
+
+.flex-container > section {
+  width: 720px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.4);
+  border-radius: 5px;
+}
+
+.flex-container > section > h4 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.flex-container > section > a {
+  float: left;
+  margin: 10px 30px 10px 10px;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.4);
+}
+
+.flex-container > section > p {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.profile-pic{
+  width:200px;
+  height:200px;
+}
